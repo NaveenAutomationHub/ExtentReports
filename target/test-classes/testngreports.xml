@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<listeners>
+
+<listener  class-name="reports.ExtentReporterNG"/>
+
+</listeners>
+
+
+  <test name="TestNGReports">
+    <classes>
+      <class name="com.reports.test.ExtentReports"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
