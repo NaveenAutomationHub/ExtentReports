@@ -47,6 +47,7 @@ public class ExtentReport {
 	@AfterMethod
 	public void afterMethod(ITestResult result){
 		logReport(result);
+		logReport(result);
 	}
 	
 	public void logReport(ITestResult result){
